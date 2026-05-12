@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dpudcg6iagm0b"]
+
+[ext_resource type="Texture2D" uid="uid://dq5rsn5arpruw" path="res://assets/ui/slot.png" id="1_4v6ba"]
+
+[node name="Slot" type="Control" unique_id=2061404556]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Fundo" type="Sprite2D" parent="." unique_id=1232845056]
+scale = Vector2(0.14, 0.14)
+texture = ExtResource("1_4v6ba")

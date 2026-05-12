@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://cbkm6bjcwaqwa"]
+
+[ext_resource type="Script" uid="uid://blf2o3b6we8ih" path="res://scripts/menu.gd" id="1_vjb58"]
+[ext_resource type="Texture2D" uid="uid://b4hefhp4mdg24" path="res://assets/fundo/deserto.jpg" id="2_con2f"]
+[ext_resource type="Texture2D" uid="uid://b2fs6g6kv41uh" path="res://assets/ui/imagem menu.png" id="3_con2f"]
+[ext_resource type="Texture2D" uid="uid://d0ew4jvffp5ul" path="res://assets/ui/botoes.png" id="4_mhnvy"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4ytvr"]
+texture = ExtResource("4_mhnvy")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mhnvy"]
+texture = ExtResource("4_mhnvy")
+
+[node name="Menu" type="Node2D" unique_id=1808848844]
+script = ExtResource("1_vjb58")
+
+[node name="Fundo" type="Sprite2D" parent="." unique_id=28775862]
+position = Vector2(640.5, 359.50003)
+scale = Vector2(0.953125, 0.93880206)
+texture = ExtResource("2_con2f")
+
+[node name="ImagemMenu" type="Sprite2D" parent="." unique_id=591678246]
+position = Vector2(640, 360)
+scale = Vector2(0.95, 0.95)
+texture = ExtResource("3_con2f")
+
+[node name="BotaoJogar" type="Button" parent="." unique_id=1523424108]
+offset_left = 580.0
+offset_top = 320.0
+offset_right = 880.0
+offset_bottom = 470.0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_4ytvr")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_4ytvr")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4ytvr")
+text = "Jogar
+"
+
+[node name="BotaoSom" type="Button" parent="." unique_id=324348008]
+offset_left = 20.0
+offset_top = 340.0
+offset_right = 113.0
+offset_bottom = 403.0
+theme_override_font_sizes/font_size = 40
+text = "Som
+"
+
+[node name="BotaoSair" type="Button" parent="." unique_id=1577116644]
+offset_left = 580.0
+offset_top = 484.0
+offset_right = 880.0
+offset_bottom = 634.0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_mhnvy")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_4ytvr")
+theme_override_styles/hover = SubResource("StyleBoxTexture_4ytvr")
+text = "Sair
+"
+
+[node name="SliderVolume" type="VSlider" parent="." unique_id=608708716]
+offset_left = 50.0
+offset_top = 425.0
+offset_right = 83.0
+offset_bottom = 577.0
+max_value = 1.0
+step = 0.05
+value = 1.0

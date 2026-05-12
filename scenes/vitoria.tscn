@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://doisyqcgd8vk6"]
+
+[ext_resource type="Script" uid="uid://dvmq8m6d77y8p" path="res://scripts/vitoria.gd" id="1_7a54b"]
+[ext_resource type="Texture2D" uid="uid://djwcco3pr8a16" path="res://assets/esfinge/esfinge_vitoria.png" id="2_nnk0s"]
+[ext_resource type="Texture2D" uid="uid://b4hefhp4mdg24" path="res://assets/fundo/deserto.jpg" id="3_desg2"]
+[ext_resource type="Texture2D" uid="uid://d0ew4jvffp5ul" path="res://assets/ui/botoes.png" id="4_nnk0s"]
+[ext_resource type="Texture2D" uid="uid://baq521667v6sk" path="res://assets/ui/Mensagem_vitoria.png" id="5_desg2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_desg2"]
+texture = ExtResource("4_nnk0s")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r0lqn"]
+texture = ExtResource("4_nnk0s")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7hcg5"]
+texture = ExtResource("4_nnk0s")
+
+[node name="Vitoria" type="Node2D" unique_id=1507763632]
+script = ExtResource("1_7a54b")
+
+[node name="Fundo" type="Sprite2D" parent="." unique_id=1809075561]
+position = Vector2(640, 360)
+scale = Vector2(0.953, 0.939)
+texture = ExtResource("3_desg2")
+
+[node name="Esfinge" type="Sprite2D" parent="." unique_id=1688869545]
+position = Vector2(630, 370)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_nnk0s")
+
+[node name="BotaoMenu" type="Button" parent="." unique_id=514050339]
+offset_left = 530.0
+offset_top = 550.0
+offset_right = 780.0
+offset_bottom = 670.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_desg2")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_r0lqn")
+theme_override_styles/hover = SubResource("StyleBoxTexture_7hcg5")
+text = "Voltar ao Menu
+"
+
+[node name="Mensagem" type="Sprite2D" parent="." unique_id=818361239]
+position = Vector2(640, 100)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("5_desg2")

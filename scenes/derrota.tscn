@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cblas517u0lgw"]
+
+[ext_resource type="Script" uid="uid://cu8hjbeb1ltsk" path="res://scripts/derrota.gd" id="1_owb28"]
+[ext_resource type="Texture2D" uid="uid://dggvllogqhq6t" path="res://assets/esfinge/esfinge_derrota.png" id="2_u2eb1"]
+[ext_resource type="Texture2D" uid="uid://b4hefhp4mdg24" path="res://assets/fundo/deserto.jpg" id="3_0ma0n"]
+[ext_resource type="Texture2D" uid="uid://d0ew4jvffp5ul" path="res://assets/ui/botoes.png" id="4_u2eb1"]
+[ext_resource type="Texture2D" uid="uid://8ux4wk11x3np" path="res://assets/ui/Mensagem_derrota.png" id="5_0ma0n"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0ma0n"]
+texture = ExtResource("4_u2eb1")
+
+[node name="Derrota" type="Node2D" unique_id=1479532800]
+script = ExtResource("1_owb28")
+
+[node name="Fundo" type="Sprite2D" parent="." unique_id=1506601264]
+position = Vector2(640, 360)
+scale = Vector2(0.953, 0.939)
+texture = ExtResource("3_0ma0n")
+
+[node name="Esfinge" type="Sprite2D" parent="." unique_id=1980565145]
+position = Vector2(585, 320)
+scale = Vector2(0.43, 0.43)
+texture = ExtResource("2_u2eb1")
+
+[node name="BotaoMenu" type="Button" parent="." unique_id=934321099]
+offset_left = 530.0
+offset_top = 550.0
+offset_right = 780.0
+offset_bottom = 670.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_0ma0n")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_0ma0n")
+theme_override_styles/hover = SubResource("StyleBoxTexture_0ma0n")
+text = "Voltar ao Menu
+"
+
+[node name="Mensagem" type="Sprite2D" parent="." unique_id=1984752472]
+position = Vector2(640, 100)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("5_0ma0n")

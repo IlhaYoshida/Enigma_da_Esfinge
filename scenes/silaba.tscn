@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dfdepbpyqfa8e"]
+
+[ext_resource type="Script" uid="uid://cwbi1pmtwajgf" path="res://scripts/silaba.gd" id="1_rvwdi"]
+[ext_resource type="Texture2D" uid="uid://dewol7l3wmm6w" path="res://assets/ui/pedra_silaba.png" id="2_ixi1c"]
+
+[node name="Silaba" type="Node2D" unique_id=251135878]
+scale = Vector2(0.3, 0.3)
+script = ExtResource("1_rvwdi")
+
+[node name="Fundo" type="Sprite2D" parent="." unique_id=1938307702]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_ixi1c")
+
+[node name="Label" type="Label" parent="." unique_id=1937314390]
+offset_left = -63.333332
+offset_top = -66.666664
+offset_right = 61.666668
+offset_bottom = 57.333336
+theme_override_font_sizes/font_size = 90
+text = "GA"
