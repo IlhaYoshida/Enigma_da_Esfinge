@@ -19,11 +19,11 @@ A Esfinge desafia você a decifrar as palavras! Veja como jogar:
 1. Observe a Imagem: No centro do painel, uma imagem aparecerá.
 2. Arraste as Sílabas: Na parte inferior da tela, você verá várias sílabas. Clique e arraste as sílabas corretas para os slots abaixo da imagem.
 3. Vença o Desafio:
-    * Se completar a palavra corretamente, você ganha um Check Verde no canto da tela.
-    * Se errar alguma sílaba, você recebe um X Vermelho.
+	* Se completar a palavra corretamente, você ganha um Check Verde no canto da tela.
+	* Se errar alguma sílaba, você recebe um X Vermelho.
 4. Condições de Vitória e Derrota:
-    * Vencer: Consiga 3 Checks Verdes para ganhar o jogo.
-    * Perder: Se acumular 3 X Vermelhos, você perde a partida.
+	* Vencer: Consiga 3 Checks Verdes para ganhar o jogo.
+	* Perder: Se acumular 3 X Vermelhos, você perde a partida.
 
 ## Estrutura de Pastas
 A organização interna do projeto segue o padrão abaixo:

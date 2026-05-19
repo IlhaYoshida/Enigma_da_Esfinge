@@ -1,0 +1,116 @@
+[
+  {
+    "palavra": "ARARA",
+    "som": "res://assets/audios_api/palavras/arara.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/arara.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "A", "som": "res://assets/audios_api/a.ogg" },
+      { "posicao": 2, "silaba": "RA", "som": "res://assets/audios_api/ra.ogg" },
+      { "posicao": 3, "silaba": "RA", "som": "res://assets/audios_api/ra.ogg" }
+    ]
+  },
+  {
+    "palavra": "BALA",
+    "som": "res://assets/audios_api/palavras/bala.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/bala.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "BA", "som": "res://assets/audios_api/ba.ogg" },
+      { "posicao": 2, "silaba": "LA", "som": "res://assets/audios_api/la.ogg" }
+    ]
+  },
+  {
+    "palavra": "BANANA",
+    "som": "res://assets/audios_api/palavras/banana.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/banana.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "BA", "som": "res://assets/audios_api/ba.ogg" },
+      { "posicao": 2, "silaba": "NA", "som": "res://assets/audios_api/na.ogg" },
+      { "posicao": 3, "silaba": "NA", "som": "res://assets/audios_api/na.ogg" }
+    ]
+  },
+  {
+    "palavra": "BATATA",
+    "som": "res://assets/audios_api/palavras/batata.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/batata.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "BA", "som": "res://assets/audios_api/ba.ogg" },
+      { "posicao": 2, "silaba": "TA", "som": "res://assets/audios_api/ta.ogg" },
+      { "posicao": 3, "silaba": "TA", "som": "res://assets/audios_api/ta.ogg" }
+    ]
+  },
+  {
+    "palavra": "CAMA",
+    "som": "res://assets/audios_api/palavras/cama.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/cama.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "CA", "som": "res://assets/audios_api/ca.ogg" },
+      { "posicao": 2, "silaba": "MA", "som": "res://assets/audios_api/ma.ogg" }
+    ]
+  },
+  {
+    "palavra": "FACA",
+    "som": "res://assets/audios_api/palavras/faca.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/faca.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "FA", "som": "res://assets/audios_api/fa.ogg" },
+      { "posicao": 2, "silaba": "CA", "som": "res://assets/audios_api/ca.ogg" }
+    ]
+  },
+  {
+    "palavra": "LATA",
+    "som": "res://assets/audios_api/palavras/lata.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/lata.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "LA", "som": "res://assets/audios_api/la.ogg" },
+      { "posicao": 2, "silaba": "TA", "som": "res://assets/audios_api/ta.ogg" }
+    ]
+  },
+  {
+    "palavra": "MALA",
+    "som": "res://assets/audios_api/palavras/mala.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/mala.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "MA", "som": "res://assets/audios_api/ma.ogg" },
+      { "posicao": 2, "silaba": "LA", "som": "res://assets/audios_api/la.ogg" }
+    ]
+  },
+  {
+    "palavra": "SALADA",
+    "som": "res://assets/audios_api/palavras/salada.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/salada.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "SA", "som": "res://assets/audios_api/sa.ogg" },
+      { "posicao": 2, "silaba": "LA", "som": "res://assets/audios_api/la.ogg" },
+      { "posicao": 3, "silaba": "DA", "som": "res://assets/audios_api/da.ogg" }
+    ]
+  },
+  {
+    "palavra": "VACA",
+    "som": "res://assets/audios_api/palavras/vaca.ogg",
+    "imagens": [
+      { "imagem": "res://assets/imagens_api/vaca.png" }
+    ],
+    "silabas": [
+      { "posicao": 1, "silaba": "VA", "som": "res://assets/audios_api/va.ogg" },
+      { "posicao": 2, "silaba": "CA", "som": "res://assets/audios_api/ca.ogg" }
+    ]
+  }
+]
