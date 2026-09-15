@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="enigma_da_esfinge_final (Copy)"
+config/name="enigma_da_esfinge"
 run/main_scene="uid://b5t6wqso7a7k4"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
