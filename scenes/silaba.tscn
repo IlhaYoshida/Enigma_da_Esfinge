@@ -12,9 +12,13 @@ scale = Vector2(0.4, 0.4)
 texture = ExtResource("2_ixi1c")
 
 [node name="Label" type="Label" parent="." unique_id=1937314390]
-offset_left = -63.333332
-offset_top = -66.666664
-offset_right = 61.666668
-offset_bottom = 57.333336
-theme_override_font_sizes/font_size = 90
+offset_left = -19.5
+offset_top = -19.5
+offset_right = 19.5
+offset_bottom = 19.5
+pivot_offset = Vector2(19.5, 19.5)
+scale = Vector2(3.3333333, 3.3333333)
+theme_override_font_sizes/font_size = 28
 text = "GA"
+horizontal_alignment = 1
+vertical_alignment = 1

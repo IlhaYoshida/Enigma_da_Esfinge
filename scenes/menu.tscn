@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://b4hefhp4mdg24" path="res://assets/fundo/deserto.jpg" id="2_con2f"]
 [ext_resource type="Texture2D" uid="uid://b2fs6g6kv41uh" path="res://assets/ui/imagem menu.png" id="3_con2f"]
 [ext_resource type="Texture2D" uid="uid://d0ew4jvffp5ul" path="res://assets/ui/botoes.png" id="4_mhnvy"]
+[ext_resource type="PackedScene" path="res://scenes/barra_lateral.tscn" id="5_barra"]
+[ext_resource type="Texture2D" path="res://assets/ui/door2.png" id="6_door2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4ytvr"]
 texture = ExtResource("4_mhnvy")
@@ -36,15 +38,6 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_4ytvr")
 text = "Jogar
 "
 
-[node name="BotaoSom" type="Button" parent="." unique_id=324348008]
-offset_left = 20.0
-offset_top = 340.0
-offset_right = 113.0
-offset_bottom = 403.0
-theme_override_font_sizes/font_size = 40
-text = "Som
-"
-
 [node name="BotaoSair" type="Button" parent="." unique_id=1577116644]
 offset_left = 580.0
 offset_top = 484.0
@@ -57,11 +50,5 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_4ytvr")
 text = "Sair
 "
 
-[node name="SliderVolume" type="VSlider" parent="." unique_id=608708716]
-offset_left = 50.0
-offset_top = 425.0
-offset_right = 83.0
-offset_bottom = 577.0
-max_value = 1.0
-step = 0.05
-value = 1.0
+[node name="BarraLateral" parent="." instance=ExtResource("5_barra")]
+icone_acao_hover = ExtResource("6_door2")

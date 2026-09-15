@@ -1,3 +1,10 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Build local (APKs distribuídos via GitHub Release, não versionados aqui)
+/build/
+
+# Checkout separado da branch jogo-web (usado só localmente para gerar o export web,
+# não deve ser versionado como subpasta da branch principal)
+/Exportacao/

@@ -7,6 +7,10 @@
 [ext_resource type="PackedScene" uid="uid://dfdepbpyqfa8e" path="res://scenes/silaba.tscn" id="5_y3j0m"]
 [ext_resource type="Texture2D" uid="uid://cyinjewiqqbf8" path="res://assets/ui/green_check.png" id="6_kk2rg"]
 [ext_resource type="Texture2D" uid="uid://cmf7nbisup4ed" path="res://assets/ui/red_x.png" id="7_b5spy"]
+[ext_resource type="PackedScene" path="res://scenes/barra_lateral.tscn" id="8_barra"]
+[ext_resource type="Texture2D" path="res://assets/ui/seta_back.png" id="9_voltar"]
+[ext_resource type="Texture2D" path="res://assets/tutorial/cursor_mao.png" id="10_cursor"]
+[ext_resource type="Texture2D" path="res://assets/tutorial/icone_pular.png" id="11_pular"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y3j0m"]
 load_path = "res://.godot/imported/esfinge_padrao.png-0b8701d291eee09fb3cce88c64ecd173.ctex"
@@ -115,3 +119,52 @@ visible = false
 position = Vector2(110, 70)
 scale = Vector2(0.05, 0.05)
 texture = ExtResource("7_b5spy")
+
+[node name="BarraLateral" parent="." instance=ExtResource("8_barra")]
+icone_acao = ExtResource("9_voltar")
+
+[node name="Fundo" parent="BarraLateral" index="0"]
+position = Vector2(51, 477)
+scale = Vector2(0.85, 0.85)
+
+[node name="BotaoSom" parent="BarraLateral" index="1"]
+offset_left = 21.0
+offset_top = 418.0
+offset_right = 76.0
+offset_bottom = 466.0
+
+[node name="BotaoAcao" parent="BarraLateral" index="2"]
+offset_left = 26.0
+offset_top = 509.0
+offset_right = 72.0
+offset_bottom = 564.0
+
+[node name="SliderVolume" parent="BarraLateral" index="3"]
+offset_left = 89.0
+offset_top = 366.0
+offset_right = 122.0
+offset_bottom = 588.0
+
+[node name="TutorialOverlay" type="CanvasLayer" parent="."]
+
+[node name="Cursor" type="Node2D" parent="TutorialOverlay"]
+visible = false
+position = Vector2(640, 690)
+
+[node name="Sprite" type="Sprite2D" parent="TutorialOverlay/Cursor"]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("10_cursor")
+
+[node name="VozTutorial" type="AudioStreamPlayer" parent="TutorialOverlay"]
+
+[node name="BotaoPularTutorial" type="TextureButton" parent="TutorialOverlay"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1186.0
+offset_top = 24.0
+offset_right = 1254.0
+offset_bottom = 92.0
+texture_normal = ExtResource("11_pular")
+ignore_texture_size = true
+stretch_mode = 5
